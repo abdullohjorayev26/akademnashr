@@ -5,12 +5,23 @@ body {
     letter-spacing: 0.5px;
 }
 
+/* SITE HEADER */
 .site-header {
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.site-header-actions {
+    display: flex;
+    align-items: center;
+}
+
+/* NAVBAR */
 .sitenav-list {
     list-style-type: none;
+    display: flex;
 }
 
 .sitenav-link {
@@ -31,7 +42,11 @@ body {
     text-decoration: none;
 }
 
+/* HERO */
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #252420;
     color: #fff;
 }
@@ -63,11 +78,18 @@ body {
     object-fit: cover;
 }
 
+/* FEATURES */
 .features-heading {
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 .feature {
@@ -86,7 +108,11 @@ body {
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
+/* AKSIYA */
 .promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #252420;
     color: #fff;
 }
@@ -111,8 +137,20 @@ body {
     object-fit: cover;
 }
 
+/* SITE FOOTER */
 .site-footer {
     background-color: #f8f8f8;
+}
+
+.site-footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer-socials {
+    display: flex;
+    align-items: center;
 }
 
 .site-footer ul {
@@ -122,6 +160,10 @@ body {
 .site-footer-divider {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom {
+    display: flex;
 }
 
 .site-footer-links {
