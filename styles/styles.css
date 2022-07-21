@@ -5,6 +5,11 @@ body {
     letter-spacing: 0.5px;
 }
 
+*:focus {
+    outline: 2px dashed #FF7500;
+    outline-offset: 3px;
+}
+
 /* SITE HEADER */
 .site-header {
     background-color: #fff;
